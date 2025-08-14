@@ -1,7 +1,7 @@
 title: "crinnovplusfr"
 description: "Sitio informativo oficial de crinnovplusfr"
 theme: jekyll-theme-minimal
-url: "https://www.crinnovplusfr.com"
+url: "https://www.crinnovplusfr.fr"
 markdown: kramdown
 plugins:
   - jekyll-sitemap

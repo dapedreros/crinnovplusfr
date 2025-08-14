@@ -6,6 +6,6 @@ permalink: /contacto/
 
 Ponte en contacto con nosotros:
 
-- 📧 [info@crinnovplusfr.com](mailto:info@crinnovplusfr.com)
+- 📧 [info@crinnovplusfr.fr](mailto:info@crinnovplusfr.fr)
 - 📞 +57 XXX XXX XXXX
 - 🗺️ Ciudad, País
