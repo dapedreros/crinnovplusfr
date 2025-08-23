@@ -1,5 +1,6 @@
-title: "crinnovplusfr"
-description: "Sitio informativo oficial de crinnovplusfr"
+#title: "CRinnovplusfr"
+#description: "Sitio informativo oficial de crinnovplusfr"
+author: "DAJP - Tous droits réservés"
 theme: jekyll-theme-minimal
 url: "https://www.crinnovplusfr.fr"
 markdown: kramdown

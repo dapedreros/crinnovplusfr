@@ -1,0 +1,3 @@
+Iniciar servidorlocal
+
+C:\Users\Usuario\crinnovplusfr>bundle exec jekyll serve
