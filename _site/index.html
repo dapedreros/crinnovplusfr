@@ -116,19 +116,52 @@
   <div class="container">
     <h2>Contactez-nous</h2>
     <p class="intro">À l'écoute de vos besoins et suggestions.</p>
-    
-    <form class="contacto-form">
+    <!-- Formulario de contacto funcional con Formsubmit.co -->
+<form action="https://formsubmit.co/43b1032b75a9581365524fb6b771eb99" method="POST" autocomplete="off" novalidate="">
+
+  <!-- Campo de texto para el nombre -->
+  <label for="name">Nombre:</label>
+  <input id="name" type="text" name="name" placeholder="Votre nom" required="" minlength="2" />
+
+  <!-- Campo de texto para el correo electrónico -->
+  <label for="email">Correo electrónico:</label>
+  <input id="email" type="email" name="email" placeholder="Votre e-mail" required="" />
+
+  <!-- Campo de texto para el mensaje -->
+  <label for="message">Mensaje:</label>
+  <textarea id="message" name="message" placeholder="Votre message" rows="5" required=""></textarea>
+
+  <!-- Campo "honeypot" para evitar spam: está oculto y nadie debe llenarlo -->
+  <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+
+  <!-- Campo oculto para redirigir a página de gracias tras envío -->
+  <input type="hidden" name="_next" value="https://tusitio.com/gracias.html" />
+
+  <!-- Campo opcional para desactivar captcha (usa con precaución) -->
+  <!-- <input type="hidden" name="_captcha" value="false" /> -->
+
+  <!-- Botón para enviar el formulario -->
+  <button type="submit">Enviar</button>
+  <!-- Redirige tras envío a URL personalizada -->
+<input type="hidden" name="_next" value="http://crinnovplusfr.fr" />
+
+<!-- Personaliza el asunto del correo -->
+<input type="hidden" name="_subject" value="Nuevo mensaje desde mi CRinnovplusfr" />
+
+</form>
+
+    <!--<form class="contacto-form">
       <div class="form-group">
-        <input type="text" placeholder="Votre nom" required="" />
+        <input type="text" placeholder="Votre nom" required>
       </div>
       <div class="form-group">
-        <input type="email" placeholder="Votre e-mail" required="" />
+        <input type="email" placeholder="Votre e-mail" required>
       </div>
       <div class="form-group">
-        <textarea placeholder="Votre message" rows="5" required=""></textarea>
+        <textarea placeholder="Votre message" rows="5" required></textarea>
       </div>
       <button type="submit">Envoyer le message</button>
-    </form>
+    </form>-->
   </div>
 </section>
 

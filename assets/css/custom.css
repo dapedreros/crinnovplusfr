@@ -312,6 +312,86 @@
 }
 
 /* ===== Secci¨®n Contacto Optimizada ===== */
+/* Estilos para el formulario de contacto */
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: ##142b70;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: inherit;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #142b70;
+  font-size: 1.1rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #0077cc;
+  box-shadow: 0 0 6px rgba(0,119,204,0.4);
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+form button[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button[type="submit"]:hover,
+form button[type="submit"]:focus {
+  background-color: #005fa3;
+  transform: scale(1.05);
+  outline: none;
+}
+
+/* Responsive: formulario optimizado para moviles */
+@media (max-width: 768px) {
+  form {
+    padding: 15px;
+  }
+
+  form button[type="submit"] {
+    width: 100%;
+    padding: 14px 0;
+  }
+}
+
+
 
 #contacto {
   background: #142b70;
@@ -341,7 +421,7 @@
   padding: 0 15px;
 }
 
-/* Formularios */
+/* Formularios 
 .contacto-form {
   max-width: 600px;
   margin: 0 auto;
@@ -376,7 +456,7 @@
 
 .contacto-form button:hover {
   background: #0056b3;
-}
+}*/
 
 /* Responsive Tablets */
 @media (max-width: 1024px) {
