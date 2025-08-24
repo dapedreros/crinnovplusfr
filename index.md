@@ -130,7 +130,7 @@ title: Inicio
   <!-- <input type="hidden" name="_captcha" value="false" /> -->
 
   <!-- Botón para enviar el formulario -->
-  <button type="submit">Enviar</button>
+  <button type="submit">Envoyer</button>
   <!-- Redirige tras envío a URL personalizada -->
 <input type="hidden" name="_next" value="http://crinnovplusfr.fr" />
 
@@ -170,7 +170,7 @@ title: Inicio
 	  </div>
 
 	  
-      <a href="https://wa.me/33768762249" target="_blank" class="contacto-item">
+      <a href="https://wa.me/33768762249/?text=Bonjour,%20je%20souhaite%20avoir%20plus%20d'informations." target="_blank" class="contacto-item">
         <i class="fab fa-whatsapp"></i>
         <p>+33 768 762 249</p>
 	 </a>
