@@ -148,7 +148,7 @@
   }
 }
 
-/* M¨®viles: imagen m¨¢s peque?a y texto justificado/padding */
+/* Moviles: imagen mas pequena y texto justificado/padding */
 @media (max-width: 768px) {
   .acerca-container {
     flex-direction: column;
@@ -175,7 +175,13 @@
   }
 }
 
-/* ===== Secci¨®n Servicios Optimizada ===== */
+/* ===== Seccion Servicios Optimizada ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 #servicios {
   background-color: #fc6f23;
   padding: 60px 20px;
@@ -219,13 +225,13 @@
   }
 }
 
-/* M¨®viles: 1 columna */
+/* Moviles: 1 columna */
 @media (max-width: 768px) {
   .cards-container, .grid {
     grid-template-columns: 1fr;
     gap: 20px;
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0 5px;
   }
 }
 
@@ -235,7 +241,8 @@
   border-radius: 12px;
   padding: 30px 20px;
   width: 100%;
-  max-width: 360px;
+  max-width: 100%;
+  min-width: 0;
   height: 240px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   color: #ebe8e8;
@@ -248,7 +255,7 @@
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .card::before {
