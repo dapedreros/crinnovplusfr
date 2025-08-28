@@ -24,46 +24,95 @@ title: Inicio
   </div>
 </section>
 
+
+
 <!-- ===== SECCIÓN SERVICIOS ===== -->
-<!--<section id="servicios" class="servicios">-->
-  <!--<section id="servicios" class="bg-light">-->
-  <section id="servicios">
+
+<section id="servicios">
   <div class="servicios-container">
     <h2>Nos Services</h2>
-    <div class="grid">
-      <div class="card card1">
-       <!--<img src="/assets/img/icon1.png" alt="Services 1" class="icono-servicio">-->
-        <!--<h3>Services 1</h3>-->
-        <p>   Réparation fuite.</p>
+
+    <!-- Sub-sección 1 -->
+    <div class="subservicios">
+      <h3>Plomberie</h3>
+      <div class="grid">
+        <div class="card card1">
+          <p>Réparation fuite.</p>
+        </div>
+        <div class="card card2">
+          <p>Remplacement de chauffe-eau.</p>
+        </div>
+        <div class="card card3">
+          <p>Evacuation</p>
+        </div>
+        <div class="card card4">
+          <p>Robineterie</p>
+        </div>
+        <div class="card card5">
+          <p>Installation</p>
+        </div>
+        <div class="card card6 sin-capa">
+          <p></p>
+        </div>
       </div>
-      <div class="card card2">
-        <!--<img src="/assets/img/icon2.png" alt="Services 2" class="icono-servicio">-->
-        <!--<h3>Services 2</h3>-->
-        <p>  Remplacement de chauffe-eau.</p>
-      </div>
-      <div class="card card3">
-        <!--<img src="/assets/img/icon3.png" alt="Services 3" class="icono-servicio">-->
-        <!--<h3>Services 3</h3>-->
-        <p>   Evacuation</p>
-      </div>
-	  <div class="card card4">
-        <!--<img src="/assets/img/icon3.png" alt="Services 3" class="icono-servicio">-->
-        <!--<h3>Services 3</h3>-->
-        <p>   Robineterie</p>
-      </div>
-	  <div class="card card5">
-        <!--<img src="/assets/img/icon3.png" alt="Services 3" class="icono-servicio">-->
-        <!--<h3>Services 3</h3>-->
-        <p>   Installation</p>
-      </div>
-	  <div class="card card6 sin-capa">
-        <!--<img src="/assets/img/icon3.png" alt="Services 3" class="icono-servicio">-->
-        <!--<h3>Services 3</h3>-->
-        <p></p>
+    </div>
+
+    <!-- Sub-sección 2 -->
+    <div class="subservicios">
+      <h3>Électricité</h3>
+      <div class="grid">
+        <div class="card card7">
+          <p>Installation de tableaux électriques</p>
+        </div>
+        <div class="card card8">
+          <p>Installation d'éclairage</p>
+        </div>
+        <div class="card card9">
+          <p>Adaptation de prises</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- ===== SECCIÓN PROYECTOS ===== -->
+<section id="proyectos">
+  <div class="proyectos-container">
+    <h2>Points Forts</h2>
+    <div class="grid proyectos">
+      
+      <!-- Proyecto 1 ---->
+      <div class="proyecto-card proyecto1">
+        <img src="/assets/img/proyecto1.jpg" alt="Projet 1" class="img-proyecto" loading="lazy">
+        <h3>Fiabilité</h3>
+        <p>Nous garantissons un travail bien fait, réalisé dans les délais et en parfaite adéquation avec vos attentes.</p>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="proyecto-card proyecto2">
+        <img src="/assets/img/proyecto2.jpg" alt="Projet 2" class="img-proyecto" loading="lazy">
+        <h3>Satisfaction client</h3>
+        <p>Nous plaçons vos priorités au cœur de chaque projet et bâtissons une relation de confiance durable.</p>
+      </div>
+
+      <!-- Proyecto 3 --->
+      <div class="proyecto-card proyecto3">
+        <img src="/assets/img/proyecto3.jpg" alt="Projet 3" class="img-proyecto" loading="lazy">
+        <h3>Réactivité et expertise</h3>
+        <p>Que ce soit pour un besoin urgent ou un projet à long terme, nous vous apportons des solutions efficaces et professionnelles.</p>
+      </div>
+
+      <!-- Proyecto 4 ---->
+      <div class="proyecto-card proyecto4">
+        <img src="/assets/img/proyecto4.jpg" alt="Projet 4" class="img-proyecto" loading="lazy">
+        <h3>Disponibilité</h3>
+        <p>Prêts à intervenir rapidement, nous nous adaptons à vos besoins pour des projets locaux ou régionaux.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 
 <!-- ===== Contacto ===== -->
@@ -166,13 +215,13 @@ title: Inicio
 		</a>-->
       <div class="contacto-item">
 		<i class="fas fa-map-marker-alt"></i>
-		<p>52 Rue de Colombes 92600 Asnieres-sur-seine</p>
+		<p>20 Rue Louis David 93170 Bagnolet</p>
 	  </div>
 
 	  
       <a href="https://wa.me/33768762249/?text=Bonjour,%20je%20souhaite%20avoir%20plus%20d'informations." target="_blank" class="contacto-item">
         <i class="fab fa-whatsapp"></i>
-        <p>+33 768 762 249</p>
+        <p>+33 07.68.76.22.49</p>
 	 </a>
      
       <a href="mailto:contact@crinnovplusfr.fr" class="contacto-item">
