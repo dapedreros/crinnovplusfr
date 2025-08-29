@@ -2,6 +2,12 @@
 layout: default
 title: Inicio
 ---
+<!-- Texto movido debajo del banner -->
+<div class="banner-contenido">
+  <h1>Des solutions rapides et efficaces</h1>
+  <p>Nous sommes le partenaire idéal pour vous aider à atteindre vos objectifs</p>
+</div>
+
 
 <!-- ===== SECCIÓN ACERCA DE ===== -->
 <section id="acerca">
@@ -68,7 +74,7 @@ title: Inicio
           <p>Installation d'éclairage</p>
         </div>
         <div class="card card9">
-          <p>Adaptation de prises</p>
+          <p>Installations d’appareils électriques</p>
         </div>
       </div>
     </div>
@@ -221,7 +227,7 @@ title: Inicio
 	  
       <a href="https://wa.me/33768762249/?text=Bonjour,%20je%20souhaite%20avoir%20plus%20d'informations." target="_blank" class="contacto-item">
         <i class="fab fa-whatsapp"></i>
-        <p>+33 07.68.76.22.49</p>
+        <p>07.68.76.22.49</p>
 	 </a>
      
       <a href="mailto:contact@crinnovplusfr.fr" class="contacto-item">

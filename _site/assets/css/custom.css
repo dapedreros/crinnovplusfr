@@ -2,7 +2,7 @@
 .banner {
   background: url('/assets/img/fondocr.png') no-repeat center center;
   background-size: cover;
-  height: 45vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +16,7 @@
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.45); /* Mejora la lectura del texto */
+  background: rgba(0,0,0,0); /* Mejora la lectura del texto */
   z-index: 1;
 }
 .banner-content, .banner-texto {
@@ -59,6 +59,37 @@
   background: #e2e2e2;
   transform: scale(1.05);
 }
+/* Texto del banner movido fuera */
+.banner-contenido {
+  text-align: center;
+  padding: 20px 40px;
+  background: #f2f0f0; /* Fondo blanco para separar del banner */
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.banner-contenido h1 {
+  font-size: 2.2rem;
+  color: #142b70;
+  margin-bottom: 5px;
+}
+
+.banner-contenido p {
+  font-size: 1.9rem;
+  color: #142b70;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .banner-contenido h1 {
+    font-size: 1.5rem;
+  }
+  .banner-contenido p {
+    font-size: 1.2rem;
+	text-align: justify;
+  }
+}
 
 /* ===== Responsive Banner ===== */
 @media (max-width: 1024px) {
@@ -88,7 +119,7 @@
 /* ===== Secci¨®n Acerca de Nosotros Optimizada ===== */
 
 #acerca {
-  padding: 100px 30px;
+  padding: 30px 30px;
   background-color: #f2f0f0;
 }
 
@@ -145,6 +176,29 @@
   .acerca-texto {
     text-align: center;
     padding: 0 24px;
+  }
+}
+/* Moviles */
+@media (max-width: 768px) {
+  #acerca {
+    padding: 60px 20px; /* menos padding */
+  }
+
+  .acerca-texto h2 {
+    font-size: 1.8rem; /* mas compacto */
+    line-height: 1.3;
+  }
+
+  .acerca-texto p {
+    font-size: 1.1rem; /* tamano base optimo */
+    line-height: 1.4; /* mas ajustado */
+    text-align: justify;  /*left mejor legibilidad */
+    font-weight: normal; /* evitar que se vea muy ¡§pesado¡¨ en moviles */
+    margin-bottom: 1rem;
+  }
+
+  .acerca-img img {
+    max-width: 110%;
   }
 }
 
@@ -225,7 +279,32 @@
     grid-template-columns: 1fr;
     gap: 20px;
     max-width: 100%;
-    padding: 0 5px;
+    padding: 2px; /* corregido */
+  }
+  
+  /* Ajustar tarjetas en moviles */
+  .card {
+    height: auto; /* ?? quitar altura fija */
+    min-height: 200px; /* altura minima flexible */
+    padding: 20px 15px;
+  }
+
+  /* Evitar desbordamiento de imagenes */
+  .cards-container img,
+  .grid img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
+}
+/* Moviles: ajustar card6 */
+@media (max-width: 768px) {
+  .card6 {
+    background: url('/assets/img/servicio6.png') no-repeat center center;
+    background-size: contain; /* ?? Se ajusta dentro sin recortarse */
+    background-color: #fc6f23; /* Mantiene fondo naranja */
+    min-height: 200px; /* para que no se vea aplastada */
   }
 }
 
@@ -287,7 +366,7 @@
 .card5 { background-image: url('/assets/img/servicio5.jpg'); }
 .card6 {
   background: url('/assets/img/servicio6.png') no-repeat center center;
-  background-size: cover;
+  background-size: contain;
 }
 .card7 { background-image: url('/assets/img/servicio7.jpg'); }
 .card8 { background-image: url('/assets/img/servicio8.jpg'); }
@@ -403,14 +482,14 @@
 
 /* ===== Parrafos ===== */
 #proyectos .proyecto-card p {
-  font-size: 1.3rem !important;
-  line-height: 1.3 !important;   /* ?? compacto */
+  font-size: 1rem !important;
+  line-height: 1.4 !important;   /* ?? compacto */
   color: #eee !important;
   margin: 0 !important;
-
+  text-align: justify;
   display: -webkit-box !important;
   -webkit-box-orient: vertical !important;
-  -webkit-line-clamp: 4 !important; /* ?? maximo 4 lineas */
+  -webkit-line-clamp: 6 !important; /* ?? maximo 4 lineas */
   overflow: hidden !important;
   text-overflow: ellipsis !important;
 }
