@@ -1,13 +1,13 @@
 /* ===== Banner Optimizado ===== */
 .banner {
-  background: url('/assets/img/fondocr.png') no-repeat center center;
+  background: url('/assets/img/fondocr2.png') no-repeat center center;
   background-size: cover;
-  height: 50vh;
+  height: 45vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #fff;
+  background-color: #b7b7b7;
   position: relative;
   overflow: hidden;
 }
@@ -94,7 +94,7 @@
 /* ===== Responsive Banner ===== */
 @media (max-width: 1024px) {
   .banner {
-    height: 32vh;
+    height: 30vh;
   }
   .banner h1, .banner-texto h2 { font-size: 2rem; }
   .banner-content, .banner-texto { padding: 28px 12px; }
