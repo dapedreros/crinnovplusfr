@@ -95,6 +95,7 @@
 @media (max-width: 1024px) {
   .banner {
     height: 30vh;
+	background-size: contain;
   }
   .banner h1, .banner-texto h2 { font-size: 2rem; }
   .banner-content, .banner-texto { padding: 28px 12px; }
@@ -103,6 +104,7 @@
 @media (max-width: 768px) {
   .banner {
     height: 18vh;
+	background-size: contain;	
   }
   .banner-content, .banner-texto {
     padding: 12px 7px;
