@@ -1,6 +1,6 @@
 /* ===== Banner Optimizado ===== */
 .banner {
-  background: url('/assets/img/fondocr2.png') no-repeat center center;
+  background: url('/assets/img/fondocr2.PNG') no-repeat center center;
   background-size: cover;
   height: 45vh;
   display: flex;
