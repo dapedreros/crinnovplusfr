@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politique de confidentialité & Cookies</title>
+  <link rel="stylesheet" href="assets/css/style.css"> <!-- Usa tu mismo CSS -->
+  <style>
+    /* Ajustes extra para esta página */
+    #politica {
+      padding: 80px 30px;
+      background-color: #f2f0f0;
+    }
+    .politica-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .politica-img {
+      flex: 1;
+    }
+    .politica-img img {
+      width: 100%;
+      max-width: 550px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .politica-texto {
+      flex: 1;
+      text-align: left;
+      padding: 0 18px;
+    }
+    .politica-texto h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #142b70;
+    }
+    .politica-texto p {
+      text-align: justify;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .politica-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
+      }
+      .politica-img img {
+        max-width: 380px;
+        margin: 0 auto;
+      }
+      .politica-texto {
+        text-align: center;
+        padding: 0 24px;
+      }
+    }
+	button {
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      background: #007bff;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sección Política -->
+  <section id="politica">
+    <div class="politica-container">
+      <div class="politica-img">
+        <img src="assets/img/politica.jpg" alt="Política de privacidad">
+      </div>
+      <div class="politica-texto">
+        <h2>Politique de confidentialité et cookies</h2>
+        <p>
+          Chez <strong>CR-Innov+</strong>, nous respectons la confidentialité de vos données personnelles. 
+          Les informations collectées via notre formulaire de contact (nom, email, message) sont utilisées 
+          uniquement pour répondre à vos demandes et ne sont jamais partagées avec des tiers sans votre consentement.
+        </p>
+        <p>
+          Nous utilisons également des <strong>cookies</strong> pour améliorer votre expérience de navigation 
+          et analyser la performance du site. Vous pouvez gérer ou désactiver les cookies dans les paramètres 
+          de votre navigateur.
+        </p>
+        <p>
+          Pour toute question relative à vos données personnelles, vous pouvez nous écrire à : 
+          <a href="mailto:contact@crinnovplusfr.fr">contact@crinnovplusfr.fr</a>.
+        </p>
+		<button onclick="window.location.href='http://crinnovplusfr.fr'">Retour à l'accueil</button>
+      </div>
+    </div>
+	</section>
+</body>
+</html>
